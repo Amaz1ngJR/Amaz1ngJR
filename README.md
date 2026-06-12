@@ -1,12 +1,17 @@
 ## Hi there 👋
 
-<h3 align="center">我是 Amaz1ngJR，一名热爱编程的开发者</h3>
+<p align="center">
+🇨🇳 我是 <b>Amaz1ngJR</b>，一名热爱编程的开发者<br>
+🇬🇧 I'm <b>Amaz1ngJR</b>, a developer passionate about coding<br>
+🇷🇺 Я <b>Amaz1ngJR</b>, разработчик, увлечённый программированием<br>
+🇩🇪 Ich bin <b>Amaz1ngJR</b>, ein leidenschaftlicher Entwickler<br>
+🇫🇷 Je suis <b>Amaz1ngJR</b>, un développeur passionné par le code
+</p>
 
-- 🔭 我主要使用 **C++ / Python** 进行开发
-- 🎬 目前专注于 **音视频** 领域
-- 🤖 对 **AI** 充满兴趣，喜欢折腾 Claude Code、GPT 等工具
-- 🌱 持续学习中，乐于探索新技术
-- 📫 欢迎来交流合作 
+<p align="center">
+主用 <b>C++ / Python</b>，专注音视频领域，热衷 AI，持续学习，欢迎交流合作<br>
+Mainly using <b>C++ / Python</b>, focused on audio & video, passionate about AI, always learning — feel free to connect!
+</p>
 
 <!--
 **Amaz1ngJR/Amaz1ngJR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -80,4 +85,16 @@ Here are some ideas to get you started:
 <p align="center">
   <img src="https://count.getloli.com/get/@Amaz1ngJR?theme=normal-1" alt="Profile Views" />
 </p>
+
+# 📝 Guestbook
+<p align="center">
+  <a href="https://github.com/Amaz1ngJR/Amaz1ngJR/issues/">
+    <img src="https://img.shields.io/badge/Leave%20a%20Message-8e2de2?style=for-the-badge&logo=github&logoColor=white" alt="Guestbook" />
+  </a>
+</p>
+<p align="center">🇨🇳 欢迎来访！点击上方按钮，在留言板留下你的足迹 ✍️</p>
+<p align="center">🇬🇧 Welcome! Click the button above to leave a message in the guestbook ✍️</p>
+<p align="center">🇷🇺 Добро пожаловать! Нажмите на кнопку выше, чтобы оставить сообщение ✍️</p>
+<p align="center">🇩🇪 Willkommen! Klicke auf den Button oben, um eine Nachricht zu hinterlassen ✍️</p>
+<p align="center">🇫🇷 Bienvenue ! Cliquez sur le bouton ci-dessus pour laisser un message ✍️</p>
 
