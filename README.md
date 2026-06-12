@@ -1,5 +1,13 @@
 ## Hi there 👋
 
+<h3 align="center">我是 Amaz1ngJR，一名热爱编程的开发者</h3>
+
+- 🔭 我主要使用 **C++ / Python** 进行开发
+- 🎬 目前专注于 **音视频** 领域
+- 🤖 对 **AI** 充满兴趣，喜欢折腾 Claude Code、GPT 等工具
+- 🌱 持续学习中，乐于探索新技术
+- 📫 欢迎来交流合作 
+
 <!--
 **Amaz1ngJR/Amaz1ngJR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -57,6 +65,15 @@ Here are some ideas to get you started:
 # 📊 Top Languages
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaz1ngJR&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+</p>
+
+# 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Amaz1ngJR&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Amaz1ngJR&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 # 👀 Profile Views
