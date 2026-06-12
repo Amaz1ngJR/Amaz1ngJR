@@ -59,7 +59,8 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaz1ngJR&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </p>
 
+# 👀 Profile Views
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Amaz1ngJR&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://count.getloli.com/get/@Amaz1ngJR?theme=normal-1" alt="Profile Views" />
 </p>
 
