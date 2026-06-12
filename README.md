@@ -39,10 +39,27 @@ Here are some ideas to get you started:
         <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="icon" width="65" height="65" />
       <br>Github
     </td>
+    <td align="center" width="96">
+        <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude-color.png" alt="Claude" width="48" height="48" />
+      <br>Claude Code
+    </td>
+    <td align="center" width="96">
+        <img src="https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/openai.png" alt="GPT" width="48" height="48" />
+      <br>GPT
+    </td>
   </tr>
 </table>
 <br><br>
 </div>
 
 <img src="https://raw.githubusercontent.com/Amaz1ngJR/Amaz1ngJR/output/github-contribution-grid-snake.svg" alt="snake animation" style="max-width: 100%;">
+
+# 📊 Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amaz1ngJR&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Amaz1ngJR&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+</p>
 
