@@ -19,35 +19,7 @@
 
 ---
 
-## 个人链接
 
-- **Github主页** : https://github.com/Amaz1ngJR
-- **技术学习主页**: https://github.com/Amaz1ngJR/Technology
-- **算法学习主页**: https://github.com/Amaz1ngJR/Data-structures-and-algorithms
-- **力扣主页**: https://leetcode.cn/u/amaz1ng-b/
-
----
-
-## 个人技能
-
-### 编程语言
-
-- **熟悉 C++**
-  - 面向对象编程，如虚函数、虚继承、多态原理
-  - 泛型编程（STL），如 `priority_queue`、`unordered_set` 等
-  - 常见的新特性，如智能指针、移动语义等
-
-### 开发工具
-
-- 了解 Python、Lua 语言、Cmake、Make、Git 等开发工具
-
-### 系统编程
-
-- **了解 Linux 编程**
-  - 进程通信、线程同步
-  - 多进程/多线程、多路 I/O 转接
-
----
 
 ## 工作经历
 
@@ -75,3 +47,23 @@
 - 完成 RK3588 零拷贝混流链路：FFmpeg 解封装 → RKMPP 硬件解码 → DMA-BUF/EGLImage 导入 → OpenGL ES 离屏合成 → RGBA DMA-BUF → RGA 转换 NV12 → RKMPP 硬件编码 → FFmpeg 封装推流，实现视频主链路端到端零拷贝。
 - 完成海思 Ascend 310P 零拷贝混流链路：FFmpeg 解封装 → HiMPP VDEC 硬件解码 → NV12/DVPP VB 设备帧 → DVPP VPC 裁剪、缩放与贴图合成 → HiMPP VENC 硬件编码 → FFmpeg 封装推流，实现无 EGL/GL 环境下的设备内存零拷贝合成。
 - 针对不同硬件能力抽象统一合成接口，在 RK 平台使用 GPU Shader 提供灵活图层渲染，在海思平台使用 DVPP VPC 专用硬件完成 NV12 画布合成，降低 CPU 像素拷贝和颜色转换开销。
+
+
+---
+
+## 个人作品
+
+- [FluxPlayer](https://github.com/Amaz1ngJR/FluxPlayer)
+  - 基于 FFmpeg + OpenGL 的跨平台视频播放器，支持硬件加速解码、网络流播放（RTSP/RTMP/HLS）、GPU 渲染、内嵌字幕和录制功能。C++17 实现，ImGui 控制界面
+- [AgentLab](https://github.com/Amaz1ngJR/AgentLab)
+  - AgentLab 是一个面向 macOS 和 Windows 的本地 Agent 开发框架，目标是把大模型从“聊天助手”升级为可持续执行任务的个人 Agent。它支持本地模型与云端模型切换，内置文件、代码搜索、Shell、浏览器控制等工具能力，并可接入 Skill 与 MCP Server 扩展外部系统。AgentLab 提供多 Agent / Session 管理、长期记忆、上下文压缩、任务拆解与 Loop Engineering 机制，让 Agent 能围绕明确目标持续规划、执行、验证、修复和沉淀经验，同时通过权限审批、工作区隔离和审计机制保障本地电脑、远程设备和敏感数据的安全。
+
+---
+
+## 个人链接
+
+- **Github主页** : https://github.com/Amaz1ngJR
+- **技术学习主页**: https://github.com/Amaz1ngJR/Technology
+- **算法学习主页**: https://github.com/Amaz1ngJR/Data-structures-and-algorithms
+- **力扣主页**: https://leetcode.cn/u/amaz1ng-b/---
+
