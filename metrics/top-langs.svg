@@ -33,14 +33,14 @@ svg { border: none !important; }
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="270.56305987112495" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="270.56305987112495" y="0" width="172.34707362368562" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="442.91013349481057" y="0" width="4.550750298628609" height="8" fill="#DA3434"/>
-                    <rect mask="url(#languages-bar)" x="447.46088379343917" y="0" width="4.149014295521767" height="8" fill="#22a079"/>
-                    <rect mask="url(#languages-bar)" x="451.60989808896096" y="0" width="3.318237787516312" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="454.9281358764773" y="0" width="3.3089246241144674" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="458.2370605005918" y="0" width="0.9829620645037797" height="8" fill="#5686a5"/>
-                    <rect mask="url(#languages-bar)" x="459.2200225650956" y="0" width="0.7799774349044849" height="8" fill="#264b99"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="267.8451306209889" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="267.8451306209889" y="0" width="175.2366783718645" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="443.0818089928534" y="0" width="4.505035937796796" height="8" fill="#DA3434"/>
+                    <rect mask="url(#languages-bar)" x="447.5868449306502" y="0" width="4.1073355559392" height="8" fill="#22a079"/>
+                    <rect mask="url(#languages-bar)" x="451.6941804865894" y="0" width="3.2849045765972265" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="454.97908506318663" y="0" width="3.2756849681663867" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="458.254770031353" y="0" width="0.973087762564108" height="8" fill="#5686a5"/>
+                    <rect mask="url(#languages-bar)" x="459.2278577939171" y="0" width="0.7721422060828461" height="8" fill="#264b99"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -52,7 +52,7 @@ svg { border: none !important; }
                                 C++
                             </div>
                             <small>
-                                <div>58.82%</div>
+                                <div>58.23%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -63,7 +63,7 @@ svg { border: none !important; }
                                 CMake
                             </div>
                             <small>
-                                <div>0.99%</div>
+                                <div>0.98%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -74,7 +74,7 @@ svg { border: none !important; }
                                 PowerShell
                             </div>
                             <small>
-                                <div>0.72%</div>
+                                <div>0.71%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -98,7 +98,7 @@ svg { border: none !important; }
                                 Python
                             </div>
                             <small>
-                                <div>37.47%</div>
+                                <div>38.09%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -109,7 +109,7 @@ svg { border: none !important; }
                                 Xmake
                             </div>
                             <small>
-                                <div>0.9%</div>
+                                <div>0.89%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -120,7 +120,7 @@ svg { border: none !important; }
                                 Shell
                             </div>
                             <small>
-                                <div>0.72%</div>
+                                <div>0.71%</div>
                             </small>
                         </div>
                         <div class="field language details">
