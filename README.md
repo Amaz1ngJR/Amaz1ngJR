@@ -45,6 +45,10 @@ Here are some ideas to get you started:
       <br>Go
     </td>
     <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=lua" width="48" height="48" alt="Lua" />
+      <br>Lua
+    </td>
+    <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VsCode" />
       <br>VsCode
     </td>
