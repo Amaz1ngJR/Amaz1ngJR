@@ -39,41 +39,27 @@ jobs:
           fi
 
       - name: Generate top languages card
-        uses: lowlighter/metrics@v3.34
+        uses: stats-organization/github-readme-stats-action@v2
         with:
+          card: top-langs
+          # 继任项目按字节降序取每仓前 10 种语言；lowlighter/metrics 只取前 8 且不排序，会漏掉 Lua
+          options: username=Amaz1ngJR&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&text_color=a9b1d6&custom_title=Most%20Used%20Languages
+          path: metrics/top-langs.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Amaz1ngJR
-          filename: metrics/top-langs.svg
+          # 限流/出错时让 job 失败，而不是把「Something went wrong」坏卡写进仓库
+          fail_on_error: true
 
-          # 只要语言板块，不要默认的头部信息
-          base: ""
-          plugin_languages: yes
-          plugin_languages_limit: 10
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_indepth: no
-
-          config_timezone: Asia/Shanghai
-
-          # 配色对齐 README 其他卡片的 tokyonight 深色主题
-          extras_css: |
-            svg, .background, foreignObject > div {
-              background: #1a1b27 !important;
-              background-color: #1a1b27 !important;
-            }
-            h1, h2, h3, text, tspan, .field, .value, div, span, p {
-              color: #a9b1d6 !important;
-              fill: #a9b1d6 !important;
-            }
-            h1, h2, h3 { color: #70a5fd !important; fill: #70a5fd !important; }
-            svg { border: none !important; }
-            .field svg { fill: #565f89 !important; }
-            /* 贡献格/图表里 #ebedf0 的浅色底换成深色，绿色数据块保留 */
-            [fill="#ebedf0"] { fill: #23243a !important; }
-
-          # 直接提交回 main（目标文件已预先存在，避免 oid 判空崩溃）
-          output_action: commit
-          committer_branch: main
+      - name: Commit top languages card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "top-langs 卡片无变化，跳过提交"
+          else
+            git commit -m "chore: 更新 top-langs 卡片"
+            git push
+          fi
 
       - name: Generate activity card
         uses: lowlighter/metrics@v3.34
